@@ -1,0 +1,10 @@
+td{
+    border: 2px solid black;
+}
+th{
+    border: 2px solid black;
+}
+body{
+    font-style: italic;
+    background-color: rgb(185, 185, 146);
+}

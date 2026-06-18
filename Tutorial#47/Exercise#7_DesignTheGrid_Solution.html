@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise#7_Design_Grid - CSS</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 420px 420px;
+            grid-template-rows: 210px 210px 210px 210px 210px 210px 210px 210px 210px 210px;
+            gap: 30px 30px;
+            padding: 40px 20px;
+        }
+
+        .item {
+            display: flex;
+            justify-content: center;
+            border-radius: 13px;
+            background-color: rgb(224, 219, 219);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        }
+
+        h2 {
+            display: flex;
+            justify-content: center;
+        }
+
+        h3 {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .dow {
+            display: flex;
+            justify-content: center;
+            color: black;
+            text-decoration: none;
+            border-radius: 5px;
+            background-color: rgb(241, 214, 64);
+            padding: 10px 22px 10px 22px;
+            width: 120px;
+            height: 18px;
+            margin: 0 200px;
+        }
+
+        .lnk {
+            display: flex;
+            justify-content: center;
+            color: black;
+            text-decoration: none;
+            font-size: 8.5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item">
+            <div class="box">
+                <div>
+                    <h2>English</h2>
+                </div>
+                <div>
+                    <h3>Includes all languages</h3>
+                </div>
+                <div><a class="dow" href="https://downloads.ultraedit.com/main/ue/win/ue_allinone.exe">Download
+                        64-bit</a></div>
+                <div><a class="lnk" href="">SHA256 64B95FA0C6F64CD3B6AD19A01AA74E4F303CC12C3B96F1AA129E0F632D8A1C8D</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="box">
+                <div>
+                    <h2>Deutsch</h2>
+                </div>
+                <div>
+                    <h3>German</h3>
+                </div>
+                <div><a class="dow" href="https://downloads.ultraedit.com/main/ue/win/ue_allinone.exe">Download
+                        64-bit</a></div>
+                <div><a class="lnk" href="">SHA256 64B95FA0C6F64CD3B6AD19A01AA74E4F303CC12C3B96F1AA129E0F632D8A1C8D</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="box">
+                <div>
+                    <h2>Italiano</h2>
+                </div>
+                <div>
+                    <h3>Italian</h3>
+                </div>
+                <div><a class="dow" href="https://downloads.ultraedit.com/main/ue/win/ue_allinone.exe">Download
+                        64-bit</a></div>
+                <div><a class="lnk" href="">SHA256 64B95FA0C6F64CD3B6AD19A01AA74E4F303CC12C3B96F1AA129E0F632D8A1C8D</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="box">
+                <div>
+                    <h2>Español</h2>
+                </div>
+                <div>
+                    <h3>Spanish</h3>
+                </div>
+                <div><a class="dow" href="https://downloads.ultraedit.com/main/ue/win/ue_allinone.exe">Download
+                        64-bit</a></div>
+                <div><a class="lnk" href="">SHA256 64B95FA0C6F64CD3B6AD19A01AA74E4F303CC12C3B96F1AA129E0F632D8A1C8D</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="box">
+                <div>
+                    <h2>français</h2>
+                </div>
+                <div>
+                    <h3>French</h3>
+                </div>
+                <div><a class="dow" href="https://downloads.ultraedit.com/main/ue/win/ue_allinone.exe">Download
+                        64-bit</a></div>
+                <div><a class="lnk" href="">SHA256 64B95FA0C6F64CD3B6AD19A01AA74E4F303CC12C3B96F1AA129E0F632D8A1C8D</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="box">
+                <div>
+                    <h2>Português brasileiro</h2>
+                </div>
+                <div>
+                    <h3>Brazilian Portuguese</h3>
+                </div>
+                <div><a class="dow" href="https://downloads.ultraedit.com/main/ue/win/ue_allinone.exe">Download
+                        64-bit</a></div>
+                <div><a class="lnk" href="">SHA256 64B95FA0C6F64CD3B6AD19A01AA74E4F303CC12C3B96F1AA129E0F632D8A1C8D</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="box">
+                <div>
+                    <h2>日本</h2>
+                </div>
+                <div>
+                    <h3>Japanese</h3>
+                </div>
+                <div><a class="dow" href="https://downloads.ultraedit.com/main/ue/win/ue_allinone.exe">Download
+                        64-bit</a></div>
+                <div><a class="lnk" href="">SHA256 64B95FA0C6F64CD3B6AD19A01AA74E4F303CC12C3B96F1AA129E0F632D8A1C8D</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="box">
+                <div>
+                    <h2>한국어</h2>
+                </div>
+                <div>
+                    <h3>Korean</h3>
+                </div>
+                <div><a class="dow" href="https://downloads.ultraedit.com/main/ue/win/ue_allinone.exe">Download
+                        64-bit</a></div>
+                <div><a class="lnk" href="">SHA256 64B95FA0C6F64CD3B6AD19A01AA74E4F303CC12C3B96F1AA129E0F632D8A1C8D</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="box">
+                <div>
+                    <h2>华语</h2>
+                </div>
+                <div>
+                    <h3>Chinese</h3>
+                </div>
+                <div><a class="dow" href="https://downloads.ultraedit.com/main/ue/win/ue_allinone.exe">Download
+                        64-bit</a></div>
+                <div><a class="lnk" href="">SHA256 64B95FA0C6F64CD3B6AD19A01AA74E4F303CC12C3B96F1AA129E0F632D8A1C8D</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="box">
+                <div>
+                    <h2>華語</h2>
+                </div>
+                <div>
+                    <h3>Traditional Chinese</h3>
+                </div>
+                <div><a class="dow" href="https://downloads.ultraedit.com/main/ue/win/ue_allinone.exe">Download
+                        64-bit</a></div>
+                <div><a class="lnk" href="">SHA256 64B95FA0C6F64CD3B6AD19A01AA74E4F303CC12C3B96F1AA129E0F632D8A1C8D</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

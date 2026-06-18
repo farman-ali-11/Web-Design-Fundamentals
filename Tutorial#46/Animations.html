@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations - CSS</title>
+    <style>
+    .container{
+        width: 70vw;
+        height: 70vh;
+        background-color: bisque;
+    }
+    .box{
+        width: 50px;
+        height: 50px;
+        background-color: aquamarine;
+        /* animation-name: farmanKaAnimation;
+        animation-duration: 3s;
+        animation-iteration-count: 2;
+        animation-timing-function: cubic-bezier(0.02, 0.73, 0.62, 0.89);
+        animation-delay: 2s;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        /* animation-play-state: paused; */
+        animation: farmanKaAnimation 3s 2 ease-in-out 1s alternate-reverse forwards,
+                   farman2 3s infinite ease-in-out 1s ;
+    } 
+    @keyframes farmanKaAnimation{
+        from{
+            background-color: red;
+        }
+        to{
+            transform: translateX(800px);
+            background-color: blue;
+        }
+    
+    }
+    @keyframes farman2{
+        0%{
+            transform: rotate(100deg);
+        }
+        30%{
+            transform: rotate(200deg);
+        }
+        60%{
+            transform: rotate(250deg);
+
+        }
+        80%{
+            transform: rotate(300deg);
+        }
+        100%{
+            transform: rotate(340deg);
+        }
+    }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+</body>
+</html>

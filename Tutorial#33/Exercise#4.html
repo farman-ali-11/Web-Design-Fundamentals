@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multicolor Navbar</title>
+    <style>
+        body{
+            background-color: bisque;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        :root{
+            --color1: rgb(121, 58, 58);
+            --color2: rgb(55, 96, 184);
+            --color3: rgb(56, 135, 89);
+            --color4: rgb(162, 90, 162);
+            --color5: rgb(157, 185, 96);
+        }
+        .nav{
+            width: 700px;
+            color: antiquewhite;
+            background-color: rgb(36, 123, 123);
+            display: flex;
+            padding: 20px 35px 35px 20px;
+            /* border: 1px solid black; */
+            border-radius: 15px;
+            margin: 10px 15px;
+        }
+        .nv{
+            padding: 3px 8px 3px 8px;
+            border: 1px solid gray;
+            border-radius: 10px;
+            margin: 0 5px;
+            cursor: pointer;
+        }
+        .nv1{
+            background-color: var(--color1);
+        }
+        .nv1:hover{
+            background-color: var(--color5);
+        }
+        .nv2{
+            background-color: var(--color2);
+        }
+        .nv2:hover{
+            background-color: var(--color4);
+        }
+        .nv3{
+            background-color: var(--color3);
+        }
+        .nv3:hover{
+            background-color: var(--color1);
+        }
+        .nv4{
+            background-color: var(--color4);
+        }
+        .nv4:hover{
+            background-color: var(--color2);
+        }
+        .nv5{
+            background-color: var(--color5);
+        }
+        .nv5:hover{
+            background-color: var(--color3);
+        }
+        h1{
+            color: blueviolet;
+            padding: 0 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Creative Navbar</h1>
+    <div class="nav">
+        <div class="nv nv1">Home</div>
+        <div class="nv nv2">Services</div>
+        <div class="nv nv3">Resources</div>
+        <div class="nv nv4">Contact</div>
+        <div class="nv nv5">About</div>
+    </div>
+</body>
+</html>

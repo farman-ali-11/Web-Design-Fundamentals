@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Selectors - CSS</title>
+    <style>
+        .boxes{
+            border: 2px solid gray;
+            background-color: antiquewhite;
+        }
+        .boxes::selection{
+            background-color: black;
+            color: aqua;
+        }
+        .box::first-letter{
+            color: brown;
+            font-size: 45px;
+        }
+        .boxes::before{
+            content: "My name is Farman Rajper";
+            color: rgb(18, 72, 232);
+        }
+        .boxes::after{
+            content: "My village name is Goth Haji Ahmed Mojai";
+            color: rgb(216, 33, 112);
+        }
+        .box:nth-last-child(1){
+            color: rgb(15, 218, 66);
+        }
+        input::placeholder{
+            color: rgb(171, 120, 120);
+            font-size: 10px;
+            padding-left: 20px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            margin-left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div class="box">Hey I am a box</div>
+        <div class="box">Hey I am a box Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, exercitationem.</div>
+        <div class="box">Hey I am a box Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae ducimus incidunt inventore eaque totam, hic, quos quo asperiores ratione assumenda ut numquam nobis culpa tempore eum blanditiis tempora pariatur. Maiores.</div>
+    </div>
+    <input type="text" placeholder="Enter your name">
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise#5 - HTML&CSS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(12, 12, 12);
+        }
+        .nav {
+            position: sticky;
+            top: 0px;
+            width: 98.5vw;
+            height: 70px;
+            background-color: rgb(218, 108, 185);
+            border: 2px solid gray;
+        }
+
+        .nav ul {
+            display: flex;
+            list-style: none;
+            color: antiquewhite;
+        }
+
+        .nav ul li {
+            padding: 22px 0;
+            margin: 0 20px;
+            font-size: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        a {
+            text-decoration: none;
+            color: antiquewhite;
+        }
+        a:hover{
+            color: rgb(55, 234, 234);
+        }
+
+        .boxes {
+            display: flex;
+            background-color: green;
+            margin: 20px 20px;
+        }
+
+        .box1 {
+            width: 350px;
+            height: 350px;
+            border: 2px solid gray;
+            margin: 30px 120px;
+            background-color: rgb(193, 156, 87);
+        }
+
+        .box2 {
+            width: 350px;
+            height: 350px;
+            border: 2px solid gray;
+            margin: 30px 70px;
+            background-color: rgb(66, 172, 201);
+
+        }
+
+        .image {
+            position: fixed;
+
+        }
+
+        img {
+            border-radius: 360px;
+            width: 60px;
+            height: 60px;
+            margin: 0 1150px;
+        }
+        .box{
+            text-align: center;
+            width: 800px;
+            height: 50px;
+            border: 2px solid white;
+            color: aliceblue;
+            border-radius: 50px;
+            font-size: 50px;
+            margin: 30px 150px 250px;
+            padding: 50px 60px 130px 60px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        footer{
+            width: 98.5vw;
+            height: 60px;
+            background-color: rgb(185, 160, 160);
+            border: 2px solid gray;
+
+        }
+    </style>
+</head>
+
+<body>
+        <div class="nav">
+            <ul>
+                <li><a href="//">Home</a></li>
+                <li><a href="//">Services</a></li>
+                <li><a href="//">Contact</a></li>
+                <li><a href="//">About</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="boxes">
+        <div class="box1"></div>
+        <div class="box2"></div>
+    </div>
+    <div class="image">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBZSHAx0vNTRqlszOConCNf2OK0WtwbPB3AQ&s" alt="">
+    </div>
+    <div class="box">
+        Welcome to this Sigma Web Development Express
+    </div>
+
+</body>
+<footer></footer>
+
+</html>

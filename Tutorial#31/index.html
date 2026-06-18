@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries - CSS</title>
+    <style>
+        @media only screen and (max-width: 350px){
+            body{
+                background-color: antiquewhite;
+            }
+            .boxes{
+                flex-direction: column;
+            }
+        }
+        @media screen and (max-width: 350px){
+            body{
+                border: 2px solid purple;
+            }
+        } 
+        .boxes{
+            display: flex;
+        }
+        .box{
+            background-color: maroon;
+            border: 2px solid yellow;
+            width: 100px;
+            height: 100px;
+            margin: 3px;
+            padding: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+
+        <div class="box">Box1</div>
+        <div class="box">box2</div>
+        <div class="box">Box3</div>
+    </div>
+</body>
+</html>

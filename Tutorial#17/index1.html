@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Selectors</title>
+    <style>
+        div{
+            background-color: aqua;
+        }
+        .lm{
+            background-color: bisque;
+        }
+        #id{
+            background-color: blue;
+        }
+        div > p{
+            background-color: rgb(157, 157, 184);
+        }
+        a:visited{
+            background-color: rgb(13, 4, 4);
+        }
+        a:active{
+            background-color: green;
+        }
+        a:hover{
+            background-color: yellow;
+        }
+        .bt{
+            color: rgb(210, 210, 210);
+            background-color: rgb(23, 25, 25);
+            margin: 2%;
+            padding: 0.5%;
+            border-radius: 90%;
+        }
+        .btn{
+            color: rgb(210, 210, 210);
+            background-color: rgb(23, 25, 25);
+            margin: 2%;
+            padding: 0.5%;
+            border-radius: 90%;
+        }
+        .btm{
+            color: rgb(210, 210, 210);
+            background-color: rgb(23, 25, 25);
+            margin: 2%;
+            padding: 0.5%;
+            border-radius: 90%;
+        }
+
+        .bt:hover{
+            background-color: green;
+        }
+        .btn:hover{
+            background-color: rgb(67, 163, 162);
+        }
+        .btm:hover{
+            background-color: rgb(54, 145, 102);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam dolorem blanditiis ad similique, ratione voluptatem voluptates, debitis voluptatum repudiandae expedita odit enim veritatis?
+        </p>
+        </div>
+    <div class="lm">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, tenetur.
+    </div>
+    <div id="id">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, iusto.
+    </div>
+    <div>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos nemo eligendi accusamus quia reiciendis harum molestiae consequatur et, dolores commodi.
+    </div>
+    <a href="https://www.google.com">Go to Google</a>
+    <a href="https://www.facebook.com">Go to Facebook</a>
+    <h2>My Button</h2>
+    <main>
+        <Button class="bt">Click Here</Button>
+        <Button class="btn">Click Me</Button>
+        <Button class="btm">Click On</Button>
+    </main>
+</body>
+</html>
